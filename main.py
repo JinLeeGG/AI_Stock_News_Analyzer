@@ -66,4 +66,4 @@ def summarize(url):
     )
     return response.choices[0].message.content
 
-print(summarize("https://edwarddonner.com"))
+print(summarize("https://edition.cnn.com/"))
